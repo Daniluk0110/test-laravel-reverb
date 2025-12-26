@@ -16,4 +16,17 @@
 Поднимает PHP, MySQL, Redis и открывает порты.
 ```bash
 ./vendor/bin/sail up -d
+````
 
+
+```bash
+./vendor/bin/sail artisan reverb:start
+```
+
+```bash
+./vendor/bin/sail npm run dev
+```
+
+```bash
+./vendor/bin/sail artisan queue:work
+```
